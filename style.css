@@ -118,11 +118,11 @@ p {
 
 .banner h2 {
     font-family: "Baloo Da 2", serif;
-    font-size: 8rem;
+    font-size: 7rem;
     font-weight: 300;
     color: #fff;
     width: 50%;
-    line-height: 9rem;
+    line-height: 8rem;
     letter-spacing: 0.2rem;
     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
     opacity: 0;
@@ -135,13 +135,14 @@ p {
     color: #fff;
     width: 70%;
     letter-spacing: 0.1rem;
+    line-height: 3rem;
     margin-bottom: 3rem;
     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
     opacity: 0;
     animation: moveBanner 1s 0.7s forwards;
 }
 
-.banner button {
+.banner a {
     width: 25rem;
     height: 7rem;
     background-color: #c29525;
@@ -317,30 +318,7 @@ p {
 /* End Header section */
 
 
-/* #hero {
-	background-image: url(./img/hero-bg.png);
-	background-size: cover;
-	background-position: top center;
-	position: relative;
-	z-index: 1;
-}
-#hero::after {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-color: black;
-	opacity: .7;
-	z-index: -1;
-} */
-
-
 /* Services Section */
-
-
-/* Stories */
 
 .stories {
     padding: 10rem 0;
@@ -481,7 +459,7 @@ p {
 .contact {
     width: 100%;
     height: 100vh;
-    background-color: teal;
+    background-color: gray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -491,6 +469,7 @@ p {
     width: 60%;
     height: 75rem;
     display: flex;
+    margin-top: 60px;
     box-shadow: 0 3rem 7rem rgba(0, 0, 0, 0.5);
 }
 
@@ -592,6 +571,12 @@ p {
     box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
 }
 
+.alertMessage {
+    color: teal;
+    font-size: medium;
+    margin-top: 20px;
+}
+
 
 /*End contact Section */
 
@@ -632,6 +617,10 @@ p {
 .social-list i {
     font-size: 2rem;
     color: #a7a7a7;
+}
+
+#social-words #my-icons {
+    margin-right: 5px;
 }
 
 
@@ -712,6 +701,9 @@ p {
     #about .col-right h1 {
         text-align: left;
     }
+    .footer {
+        height: 25rem;
+    }
     /* End About */
 }
 
@@ -745,6 +737,9 @@ p {
     .story-bg {
         width: 85%;
     }
+    .footer {
+        height: 25rem;
+    }
     /* End header */
 }
 
@@ -772,7 +767,7 @@ p {
     .banner p {
         font-size: 3rem;
     }
-    .banner button {
+    .banner a {
         width: 20rem;
         height: 5rem;
         font-size: 1.6rem;
@@ -811,7 +806,7 @@ p {
     .banner p {
         font-size: 2.5rem;
     }
-    .banner button {
+    .banner a {
         width: 18rem;
         height: 4rem;
         font-size: 1.5rem;
@@ -841,6 +836,9 @@ p {
         order: 1;
         margin-top: 3rem;
     }
+    .footer {
+        height: 25rem;
+    }
 }
 
 @media (max-width: 700px) {
@@ -860,6 +858,9 @@ p {
     .submit-btn {
         width: 35rem;
     }
+    .footer {
+        height: 25rem;
+    }
 }
 
 @media (max-width: 500px) {
@@ -867,6 +868,6 @@ p {
         font-size: 45%;
     }
     .footer {
-        height: 18rem;
+        height: 25rem;
     }
 }
