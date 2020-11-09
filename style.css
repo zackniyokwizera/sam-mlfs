@@ -49,7 +49,7 @@ p {
 }
 
 .section-title span {
-    color: crimson;
+    color: #1E90FF;
 }
 
 .cta {
@@ -57,7 +57,7 @@ p {
     padding: 10px 30px;
     color: white;
     background-color: transparent;
-    border: 2px solid crimson;
+    border: 2px solid #1E90FF;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -68,7 +68,7 @@ p {
 
 .cta:hover {
     color: white;
-    background-color: crimson;
+    background-color: #1E90FF;
 }
 
 .brand img {
@@ -145,7 +145,7 @@ p {
 .banner a {
     width: 25rem;
     height: 7rem;
-    background-color: #c29525;
+    background-color: #1E90FF;
     border: none;
     font-family: "Muli", serif;
     font-size: 2rem;
@@ -216,7 +216,7 @@ p {
 
 #header .nav-list ul li.active a {
     border-style: groove;
-    border-color: #9acd32;
+    border-color: #1E90FF;
 }
 
 #header .nav-list ul a {
@@ -249,7 +249,7 @@ p {
 }
 
 #header .nav-list ul li:hover a {
-    color: crimson;
+    color: #1E90FF;
 }
 
 #header .hamburger {
@@ -351,7 +351,7 @@ p {
     padding: 5rem;
     margin: 5rem;
     width: 70%;
-    box-shadow: 0 2rem 5rem rgba(51, 51, 51, 0.4);
+    box-shadow: 0 2rem 5rem #17181b;
     transform: skewX(20deg);
 }
 
@@ -446,7 +446,7 @@ p {
     top: 19px;
     height: 98%;
     width: 98%;
-    border: 7px solid crimson;
+    border: 7px solid #1E90FF;
     z-index: -1;
 }
 
@@ -470,7 +470,7 @@ p {
     height: 75rem;
     display: flex;
     margin-top: 60px;
-    box-shadow: 0 3rem 7rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3rem 7rem #1E90FF;
 }
 
 .contact-left {
@@ -557,7 +557,7 @@ p {
 .submit-btn {
     width: 45rem;
     height: 5rem;
-    background-color: #c29525;
+    background-color: #1E90FF;
     color: #fff;
     border: none;
     margin-top: 2rem;
@@ -572,6 +572,7 @@ p {
 }
 
 .alertMessage {
+    display: none;
     color: teal;
     font-size: medium;
     margin-top: 20px;
@@ -659,7 +660,7 @@ p {
 
 @keyframes text_reveal_name {
     100% {
-        color: crimson;
+        color: #1E90FF;
         font-weight: 500;
     }
 }
@@ -692,7 +693,7 @@ p {
         top: 34px;
         height: 98%;
         width: 98%;
-        border: 10px solid crimson;
+        border: 10px solid #1E90FF;
     }
     #about .col-right {
         text-align: left;
