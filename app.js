@@ -42,7 +42,7 @@ function submitForm(e) {
     }, 3000);
 
     // Clear form
-    document.getElementById("contactForm").reset();
+    // document.getElementById("contactForm").reset();
 }
 
 // Function to get get form values
@@ -91,5 +91,5 @@ menu_item.forEach((item) => {
 	});
 });
 
-// tabs
+
 
