@@ -869,6 +869,9 @@ p {
         font-size: 45%;
     }
     .footer {
-        height: 25rem;
+        height: 32rem;
+    }
+    .social-list {
+        margin-top: 20px;
     }
 }
