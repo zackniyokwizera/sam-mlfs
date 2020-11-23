@@ -870,8 +870,12 @@ p {
     }
     .footer {
         height: 32rem;
+        `
     }
     .social-list {
         margin-top: 20px;
+    }
+    .contact-heading {
+        font-size: 25px;
     }
 }
