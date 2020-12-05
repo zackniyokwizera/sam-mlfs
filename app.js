@@ -26,7 +26,6 @@ menu_item.forEach((item) => {
 });
 
 
-
 // Your web app's Firebase configuration  
 var firebaseConfig = {
 	apiKey: "AIzaSyBlFjZ11LUC20BllVfMYAUBVRObW4OT7Ro",
@@ -89,30 +88,3 @@ function saveMessage(name, email, phone, message) {
         message: message,
     });
 }
-
-
-
-
-
-
-// tabs 
-var tabs = document.querySelectorAll(".tabs ul li");
-var tab_wraps = document.querySelectorAll(".tab_wrap");
-
-tabs.forEach(function(tab, tab_index) {
-    tab.addEventListener("click", function() {
-        tabs.forEach(function(tab) {
-            tab.classList.remove("active");
-        })
-        tab.classList.add("active");
-
-        tab_wraps.forEach(function(content, content_index) {
-            if (content_index == tab_index) {
-                content.style.display = "block";
-            } else {
-                content.style.display = "none";
-            }
-        })
-
-    })
-})

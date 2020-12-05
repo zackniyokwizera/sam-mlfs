@@ -366,6 +366,7 @@ p {
     border-radius: 50%;
     object-fit: cover;
     margin-right: 5rem;
+    padding: 50px;
 }
 
 .story-text {
@@ -603,6 +604,14 @@ p {
     font-family: "Baloo Da 2", serif;
     font-size: 1.6rem;
     color: #a7a7a7;
+}
+
+.working-hours {
+    color: #a7a7a7;
+}
+
+.working-hours h2 {
+    margin-top: 10px;
 }
 
 .words {
@@ -869,8 +878,7 @@ p {
         font-size: 45%;
     }
     .footer {
-        height: 32rem;
-        `
+        height: 50%;
     }
     .social-list {
         margin-top: 20px;
