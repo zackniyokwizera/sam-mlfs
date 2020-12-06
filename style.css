@@ -748,7 +748,8 @@ p {
         width: 85%;
     }
     .footer {
-        height: 25rem;
+        height: 28rem;
+        margin-bottom: -15px;
     }
     /* End header */
 }
@@ -885,5 +886,8 @@ p {
     }
     .contact-heading {
         font-size: 25px;
+    }
+    .words {
+        margin-bottom: 20px;
     }
 }
